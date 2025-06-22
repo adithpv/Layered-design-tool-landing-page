@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Next.js static export cache
+.cache/
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Test coverage
+coverage/
+
+# Optional: Storybook files
+.storybook-out/
