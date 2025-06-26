@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Tag from "@/components/Tag";
 import figmaIcon from "@/assets/images/figma-logo.svg";
 import gitHubIcon from "@/assets/images/github-logo.svg";
@@ -64,6 +63,7 @@ export default function Integrations() {
               <IntegrationColumns
                 integrations={integrations.slice().reverse()}
                 className="hidden md:flex"
+                reverse
               />
             </div>
           </div>
