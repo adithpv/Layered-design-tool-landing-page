@@ -60,7 +60,7 @@ export default function Hero() {
         >
           <Image
             src={designExampleImage}
-            alt="design example image"
+            alt="design concept 1"
             draggable="false"
           />
         </motion.div>
@@ -79,7 +79,7 @@ export default function Hero() {
         >
           <Image
             src={designExampleImage2}
-            alt="design example image two"
+            alt="design concept 2"
             draggable="false"
           />
         </motion.div>
@@ -92,21 +92,21 @@ export default function Hero() {
         </motion.div>
         <div className="flex justify-center">
           <div className="inline-flex py-1 px-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-neutral-950 font-semibold">
-            ✨$7.5M seed round raised
+            ✨Raised $7.5M in seed funding
           </div>
         </div>
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6">
-          Impactful design, created effortlessly
+          Powerful design, created effortlessly
         </h1>
         <p className="text-center text-xl text-white/50 mt-8 mx-auto">
-          Design tools shouldn’t slow you down. Layers combines powerful
-          features with an intuitive interface to keep you in your creative
-          flow.
+          Design tools shouldn’t hold you back. Layers seamlessly blends
+          advanced features with a simple interface to help you stay in your
+          creative zone.
         </p>
         <form className="flex border border-white/15 rounded-full p-2 mt-8 max-w-lg mx-auto">
           <input
             type="email"
-            placeholder="Enter your email"
+            placeholder="Your email address"
             className="bg-transparent px-4 md:flex-1 w-full"
           />
           <Button
@@ -115,7 +115,7 @@ export default function Hero() {
             size="sm"
             className="whitespace-nowrap"
           >
-            Sign Up
+            Join Now
           </Button>
         </form>
       </div>
