@@ -50,7 +50,7 @@ export default function Integrations() {
           <div>
             <Tag>Integrations</Tag>
             <h2 className="text-6xl font-medium mt-6">
-              Plays well with <span className="text-lime-400">others</span>
+              Plays well with <span className="text-blue-400">others</span>
             </h2>
             <p className="text-white/50 mt-4 text-lg">
               Layers seamlessly connects with your favorite tools, making it

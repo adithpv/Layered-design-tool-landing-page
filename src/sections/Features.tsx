@@ -27,7 +27,7 @@ export default function Features() {
         </div>
         <h2 className="text-6xl font-medium text-center mt-6">
           Where power meets{" "}
-          <span className="text-lime-400 max-w-2xl mx-auto">simplicity</span>
+          <span className="text-blue-400 max-w-2xl mx-auto">simplicity</span>
         </h2>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-3 gap-8">
           <FeatureCard
@@ -45,7 +45,7 @@ export default function Features() {
               <Avatar className="-ml-6 border-amber-500 z-20">
                 <Image src={avatar3} alt="avatar" className="rounded-full" />
               </Avatar>
-              <Avatar className="-ml-6 border-transparent group-hover:border-green-500 transition">
+              <Avatar className="-ml-6 border-transparent group-hover:border-blue-500 transition">
                 <div className="size-full bg-neutral-700 rounded-full inline-flex items-center justify-center gap-1 relative">
                   <Image
                     src={avatar4}
@@ -91,13 +91,13 @@ export default function Features() {
             className="md:col-span-2 lg:col-span-1 md:col-start-2 lg:col-start-auto group"
           >
             <div className="aspect-video flex items-center justify-center gap-4">
-              <Key className="w-28 outline  outline-2 outline-offset-4  outline-transparent  group-hover:outline-lime-400 transition-all duration-500 group-hover:translate-y-1">
+              <Key className="w-28 outline  outline-2 outline-offset-4  outline-transparent  group-hover:outline-blue-400 transition-all duration-500 group-hover:translate-y-1">
                 shift
               </Key>
-              <Key className="outline outline-2 outline-offset-4 outline-transparent  group-hover:outline-lime-400 transition-all duration-500 group-hover:translate-y-1 delay-150">
+              <Key className="outline outline-2 outline-offset-4 outline-transparent  group-hover:outline-blue-400 transition-all duration-500 group-hover:translate-y-1 delay-150">
                 alt
               </Key>
-              <Key className="outline outline-2 outline-offset-4 outline-transparent  group-hover:outline-lime-400 transition-all duration-500 group-hover:translate-y-1 delay-300">
+              <Key className="outline outline-2 outline-offset-4 outline-transparent  group-hover:outline-blue-400 transition-all duration-500 group-hover:translate-y-1 delay-300">
                 C
               </Key>
             </div>
@@ -109,7 +109,7 @@ export default function Features() {
               className="bg-neutral-900 border border-white/10 inline-flex px-3 py-1.5 md:px-5 md:py-2 rounded-2xl gap-3 items-center hover:scale-105 transition duration-500 group"
               key={feature}
             >
-              <span className="bg-lime-400 text-neutral-950 size-5 rounded-full inline-flex items-center justify-center text-xl group-hover:rotate-45 transition duration-500">
+              <span className="bg-blue-400 text-neutral-950 size-5 rounded-full inline-flex items-center justify-center text-xl group-hover:rotate-45 transition duration-500">
                 &#10038;
               </span>
               <span className="font-medium md:text-lg">{feature}</span>

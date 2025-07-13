@@ -1,4 +1,4 @@
-import LogoImg from "@/assets/images/logo.svg";
+import LogoImg from "@/assets/images/logo-new.svg";
 import Image from "next/image";
 
 const footerLinks = [

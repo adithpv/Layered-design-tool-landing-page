@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
-import LogoImage from "@/assets/images/logo.svg";
+import LogoImage from "@/assets/images/logo-new.svg";
 import Button from "@/components/Button";
 
 const navLinks = [
