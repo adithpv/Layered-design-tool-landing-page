@@ -26,7 +26,7 @@ export default function Navbar() {
                 <Image
                   src={LogoImage}
                   alt="logo"
-                  className="h-9 md:h-auto w-auto"
+                  className="h-9 md:h-auto w-auto wils"
                 />
               </div>
               <div className="lg:flex justify-center items-center hidden ">
