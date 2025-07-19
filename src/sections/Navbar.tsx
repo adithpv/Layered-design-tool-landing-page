@@ -4,11 +4,11 @@ import { useState } from "react";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
-import LogoImage from "@/assets/images/logo-new.svg";
+import LogoImage from "@/assets/images/custom-logo.svg";
 import Button from "@/components/Button";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
+  { label: "Home", href: "#" },
   { label: "Features", href: "#features" },
   { label: "Integrations", href: "#integrations" },
   { label: "FAQs", href: "#faqs" },
@@ -23,11 +23,7 @@ export default function Navbar() {
           <div className="border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur">
             <div className="grid grid-cols-2 lg:grid-cols-3 lg:border-none rounded-full p-2 px-4 md:pr-2 items-center ">
               <div>
-                <Image
-                  src={LogoImage}
-                  alt="logo"
-                  className="h-9 md:h-auto w-auto"
-                />
+                <Image src={LogoImage} alt="logo" className="h-9 md:h-auto" />
               </div>
               <div className="lg:flex justify-center items-center hidden ">
                 <nav className="flex gap-6 font-medium">
