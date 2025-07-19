@@ -36,7 +36,7 @@ export default function Introduction() {
       <div className="container">
         <div className="sticky top-20 md:top-28 lg:top-40">
           <div className="flex justify-center">
-            <Tag>Introduction Layers</Tag>
+            <Tag>Introduction Layered</Tag>
           </div>
           <div className="text-4xl md:text-6xl lg:text-7xl text-center font-medium mt-10">
             <span>Your creative process deserves better.</span>{" "}
@@ -55,7 +55,7 @@ export default function Introduction() {
               ))}
             </span>
             <span className="text-[#FFFF00] block">
-              That&apos;s why we built Layers.
+              That&apos;s why we built Layered.
             </span>
           </div>
         </div>

@@ -53,7 +53,7 @@ export default function Integrations() {
               Plays well with <span className="text-[#FFFF00]">others</span>
             </h2>
             <p className="text-white/50 mt-4 text-lg">
-              Layers seamlessly connects with your favorite tools, making it
+              Layered seamlessly connects with your favorite tools, making it
               easy to plug into any workflow and collaborate across platforms.
             </p>
           </div>

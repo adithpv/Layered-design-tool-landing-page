@@ -101,7 +101,7 @@ export default function Hero() {
           Powerful design, created effortlessly
         </h1>
         <p className="text-center text-xl text-white/50 mt-8 mx-auto">
-          Design tools shouldn’t hold you back. Layers seamlessly blends
+          Design tools shouldn’t hold you back. Layered seamlessly blends
           advanced features with a simple interface to help you stay in your
           creative zone.
         </p>
