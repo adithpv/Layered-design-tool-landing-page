@@ -54,13 +54,11 @@ export default function Introduction() {
                 </span>
               ))}
             </span>
-            <span className="text-blue-400 block">
+            <span className="text-[#FFFF00] block">
               That&apos;s why we built Layers.
             </span>
           </div>
         </div>
-
-        {/* Scroll trigger area */}
         <div className="h-[200vh]" ref={scrollTarget} />
       </div>
     </section>

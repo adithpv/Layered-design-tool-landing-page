@@ -27,7 +27,7 @@ export default function Features() {
         </div>
         <h2 className="text-6xl font-medium text-center mt-6">
           Where power meets{" "}
-          <span className="text-blue-400 max-w-2xl mx-auto">simplicity</span>
+          <span className="text-[#FFFF00] max-w-2xl mx-auto">simplicity</span>
         </h2>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-3 gap-8">
           <FeatureCard
@@ -109,7 +109,7 @@ export default function Features() {
               className="bg-neutral-900 border border-white/10 inline-flex px-3 py-1.5 md:px-5 md:py-2 rounded-2xl gap-3 items-center hover:scale-105 transition duration-500 group"
               key={feature}
             >
-              <span className="bg-blue-400 text-neutral-950 size-5 rounded-full inline-flex items-center justify-center text-xl group-hover:rotate-45 transition duration-500">
+              <span className="bg-[#FFFF00] text-neutral-950 size-5 rounded-full inline-flex items-center justify-center text-xl group-hover:rotate-45 transition duration-500">
                 &#10038;
               </span>
               <span className="font-medium md:text-lg">{feature}</span>
