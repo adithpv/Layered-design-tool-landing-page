@@ -8,7 +8,7 @@ import LogoImage from "@/assets/images/logo-new.svg";
 import Button from "@/components/Button";
 
 const navLinks = [
-  { label: "Home", href: "#" },
+  { label: "Home", href: "#home" },
   { label: "Features", href: "#features" },
   { label: "Integrations", href: "#integrations" },
   { label: "FAQs", href: "#faqs" },
